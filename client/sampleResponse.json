@@ -1,0 +1,26 @@
+{
+	"note": [
+		"Original data was obtained from a network capture. IDK if I can distribute it.",
+		"So this is just sample data to get the rest of the code into a minimal working state.",
+		"Extract the real data yourself."
+	],
+	"combinations": {
+		"0": {"from":"0,1,2,3","makes":4}
+	},
+	"elements": {
+		"0": {"by": "useridhere", "color": "#FFFFA500", "name": "Fire", "time": 1589437520579},
+		"1": {"by": "useridhere", "color": "#FFDEB887", "name": "Earth", "time": 1589437520579},
+		"2": {"by": "useridhere", "color": "#FF508DFF", "name": "Water", "time": 1589437520579},
+		"3": {"by": "useridhere", "color": "#FFE7E7E7", "name": "Air", "time": 1589437520579},
+		"4": {"by": "useridhere", "color": "#FFAAAAAA", "name": "Sample element", "time": 1727524391504}
+	},
+	"comments": {
+		"count": {
+			"0": 9,
+			"1": 8,
+			"2": 10,
+			"3": 9,
+			"4": 0
+		}
+	}
+}

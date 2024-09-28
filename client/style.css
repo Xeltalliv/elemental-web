@@ -1,0 +1,20 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.elements-list {
+	flex: 1;
+	background-color: #111111;
+}
+.right-panel {
+	width: 300px;
+	background-color: #222222;
+}

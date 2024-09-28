@@ -1,0 +1,10 @@
+.element {
+	margin: 4px;
+	background-color: #0099ff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	user-select: none;
+}

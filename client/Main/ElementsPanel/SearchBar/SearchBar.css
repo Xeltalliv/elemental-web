@@ -1,0 +1,28 @@
+.elements-search-div {
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+}
+.elements-search-input {
+	flex: 1;
+	background-color: #333333;
+	margin: 3px;
+	padding: 4px;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+}
+.elements-search-input:focus {
+    outline: none;
+}
+.elements-search-button {
+	background-color: var(--accent-color);
+	margin: 3px;
+	padding: 4px;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+}
+.elements-search-button:hover {
+	background-color: var(--accent-color-hover);
+}

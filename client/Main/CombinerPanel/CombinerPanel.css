@@ -1,0 +1,8 @@
+@import url("./ElementCombiner/ElementCombiner.css");
+
+.right-panel {
+	width: 300px;
+	background-color: #222222;
+	display: flex;
+	flex-direction: column;
+}

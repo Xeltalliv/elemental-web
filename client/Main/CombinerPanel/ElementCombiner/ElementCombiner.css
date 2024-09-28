@@ -1,0 +1,23 @@
+.element-combiner {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	padding: 3px;
+	background-color: #555555;
+	border-radius: 8px;
+}
+
+.element-combiner-list {
+	flex: 1;
+}
+.element-combiner-button {
+	height: 30px;
+	border: none;
+	background-color: var(--accent-color);
+	color: #ffffff;
+	border-radius: 5px;
+}
+.element-combiner-button:hover {
+	background-color: var(--accent-color-hover);
+}
