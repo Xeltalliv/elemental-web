@@ -8,6 +8,7 @@ export default class ListElement extends GameElement {
 		this.el.addEventListener("click", this.onClick.bind(this));
 	}
 	onClick() {
+        if (!this.data.unlocked) return;
 		getMainInstance().combinerPanel.elementCombiner.addElement(this.data.id);
 	}
 }
