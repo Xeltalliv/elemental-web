@@ -3,7 +3,7 @@
 https://xeltalliv.github.io/elemental-web/client/
 
 An unofficial preservation of user-made content from:  
-https://web.archive.org/web/20240501000000*/https://play.google.com/store/apps/details?id=com.veam.elemental  
+https://web.archive.org/web/20240501175558/https://play.google.com/store/apps/details?id=com.veam.elemental
 https://github.com/GoVed/Elemental  
 the servers of which shut down.
 
