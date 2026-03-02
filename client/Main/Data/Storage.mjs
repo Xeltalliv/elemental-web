@@ -2,17 +2,17 @@ export default class Storage {
 	constructor() {
 		this.elements = [];
 		this.combinations = {};
-		this.db = null;
+		//this.db = null;
 		this.readyResolve = null;
 		this.ready = new Promise((res) => this.readyResolve = res);
 
-		const openRequest = indexedDB.open("elementalDB", 1);
-		openRequest.onsuccess = () => {
-			this.db = openRequest.result;
-		}
-		openRequest.onblocked = () => {
-			alert("Error connecting to IndexedDB");
-		}
+		//const openRequest = indexedDB.open("elementalDB", 1);
+		//openRequest.onsuccess = () => {
+		//	this.db = openRequest.result;
+		//}
+		//openRequest.onblocked = () => {
+		//	alert("Error connecting to IndexedDB");
+		//}
 		this.loadRaw();
 	}
 	async loadRaw() {
@@ -35,8 +35,8 @@ export default class Storage {
 			const c = raw.combinations[id];
 			this.combinations[c.from] = c.makes;
 		}
-		console.log(by);
-		console.log(raw);
+		//console.log(by);
+		//console.log(raw);
 		this.readyResolve();
 	}
 }
