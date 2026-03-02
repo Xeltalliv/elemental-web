@@ -16,7 +16,7 @@ export default class Storage {
 		this.loadRaw();
 	}
 	async loadRaw() {
-		const raw = await (await fetch("sampleResponse.json")).json();
+		const raw = await (await fetch("redactedResponse.json")).json();
 		const by = new Set();
 		for(const id in raw.elements) {
 			const e = raw.elements[id];
