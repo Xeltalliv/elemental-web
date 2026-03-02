@@ -2,7 +2,10 @@
 
 https://xeltalliv.github.io/elemental-web/client/
 
-A web preservation of content from: https://play.google.com/store/apps/details?id=com.veam.elemental https://github.com/GoVed/Elemental the servers of which shut down.
+An unofficial preservation of user-made content from:  
+https://web.archive.org/web/20240501000000*/https://play.google.com/store/apps/details?id=com.veam.elemental  
+https://github.com/GoVed/Elemental  
+the servers of which shut down.
 
 Very unfinished. Local saving isn't implemented.
 
