@@ -7,4 +7,5 @@
 	color: white;
 	text-align: center;
 	user-select: none;
+	word-break: break-all;
 }

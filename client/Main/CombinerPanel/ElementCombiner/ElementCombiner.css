@@ -1,5 +1,5 @@
 .element-combiner {
-	height: 200px;
+	min-height: 200px;
 	display: flex;
 	flex-direction: column;
 	margin: 10px;
