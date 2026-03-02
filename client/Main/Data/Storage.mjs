@@ -16,7 +16,16 @@ export default class Storage {
 		this.loadRaw();
 	}
 	async loadRaw() {
-		const raw = await (await fetch("redactedResponse.json")).json();
+		// xor is needed to mask names of elements from showing up in GitHub search
+		const arrayBuffer = await (await fetch("data.json.xor")).arrayBuffer();
+		const ui8 = new Uint8Array(arrayBuffer);
+		for(let i=0; i<ui8.byteLength; i++) {
+			ui8[i] = ui8[i] ^ 0b10101010;
+		}
+		const td = new TextDecoder();
+		const rawString = td.decode(ui8);
+		const raw = JSON.parse(rawString);
+
 		const by = new Set();
 		for(const id in raw.elements) {
 			const e = raw.elements[id];
